@@ -1,0 +1,8 @@
+server.port: 9005
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://user:password@localhost:9005/eureka/
+    register-with-eureka: false
+    fetch-registry: false
